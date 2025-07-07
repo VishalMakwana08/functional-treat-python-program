@@ -70,20 +70,14 @@ def sorting():
         return 0
     match user_input:
         case 1:
-             for i in data_list:
-                 i.sort()
-             data_list.sort()
-             print("Sorted Data In Ascending Orderd:")
-             for i in data_list:
-                print(i)
+            items=[item for row in data_list for item in row]
+            items.sort()
+            print(items)
 
         case 2:
-            for i in data_list:
-                i.sort(reverse=True)
-            data_list.sort(reverse=True)
-            print("Sorted Data In Descending Orderd:")
-            for i in data_list:
-                print(i)
+            items=[item for row in data_list for item in row]
+            items.sort(reverse=True)
+            print(items)
         case _:
             print("Invalid Command")
 def data_statstics():
