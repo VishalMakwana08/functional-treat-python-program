@@ -13,9 +13,15 @@ This Function For User Input As 1d and 2d array
 Choices For Data Input:
 1.1D Array
 2.2 Array
-Enter Data Choice:1
-Enter Data For 1D Array (Separated By Spaces) like 1 2 3 ...2 3 4 5 9 78 56
-[[2, 3, 4, 5, 9, 78, 56]]
+Enter Data Choice:2
+Enter Number Of Row For 2D Array:2
+Enter Number Of Columns For 2D Array:2
+Enete Data For Row1:
+Enter Data For Column1:1
+Enter Data For Column2:2
+Enete Data For Row2:
+Enter Data For Column1:2
+Enter Data For Column2:1
 
 Main Menu
 1.Input Data
@@ -29,11 +35,11 @@ Please Enter Your Choice:2
 This Function Show Data Summary
 
 Data Summary:
--Total Elements:7
--Minimum Value:2
--Maximum Value:78
--Sum Of All Values:157
--Average Value:22.428571428571427
+-Total Elements:4
+-Minimum Value:1
+-Maximum Value:2
+-Sum Of All Values:6
+-Average Value:1.5
 
 Main Menu
 1.Input Data
@@ -57,9 +63,9 @@ Main Menu
 6.Display Data Set Statstics(Return Multiple Values)
 7.Exit Program
 Please Enter Your Choice:4
-Enter a threshold value to filter out data above this value:2
-Filtered Data (values >= 2):
-[2, 3, 4, 5, 9, 56, 78]
+Enter a threshold value to filter out data above this value:1
+Filtered Data (values >= 1):
+[1, 1, 2, 2]
 
 Main Menu
 1.Input Data
@@ -74,8 +80,7 @@ This Function For Sorting Data In Ascending And Descending Order
 1.Ascending
 2.Descending
 Enter Your Choice For Sorting:1
-Sorted Data In Ascending Orderd:
-[2, 3, 4, 5, 9, 56, 78]
+[1, 1, 2, 2]
 
 Main Menu
 1.Input Data
@@ -90,8 +95,7 @@ This Function For Sorting Data In Ascending And Descending Order
 1.Ascending
 2.Descending
 Enter Your Choice For Sorting:2
-Sorted Data In Descending Orderd:
-[78, 56, 9, 5, 4, 3, 2]
+[2, 2, 1, 1]
 
 Main Menu
 1.Input Data
@@ -104,10 +108,10 @@ Main Menu
 Please Enter Your Choice:6
 This Function For Data Statstics They Show
 All  Data Statstics Of On User Data
--Minimum Value:2
--Maximum Value:2
--Sum Of All Values:157
--Average Value:22.428571428571427
+-Minimum Value:1
+-Maximum Value:1
+-Sum Of All Values:6
+-Average Value:1.5
 
 Main Menu
 1.Input Data
